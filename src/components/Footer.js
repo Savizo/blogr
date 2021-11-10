@@ -3,7 +3,7 @@ import { footer } from '../data/footer';
 import logo from '../images/logo.svg';
 
 const Footer = () => {
-  const [footerLinks, setFooterLinks] = useState(footer);
+  const [footerLinks] = useState(footer);
 
   return (
     <>
